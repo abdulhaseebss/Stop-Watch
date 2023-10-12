@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+  }
+
+  #stopwatch {
+    width: 200px;
+    background-color: #fff;
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    position: fixed;
+  }
+
+  #display {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  #controls {
+    text-align: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+
+  button{
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+}
+.stopDisplay{
+    display: flex;
+    font-size: 24px;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
