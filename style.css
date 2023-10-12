@@ -6,10 +6,11 @@ body {
 
   #stopwatch {
     width: 200px;
+    height: 200px;
     background-color: #fff;
     border: 2px solid #333;
-    border-radius: 5px;
-    padding: 20px;
+    border-radius: 500px;
+    padding: 50px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
     top: 50%;
     left: 50%;
@@ -33,11 +34,22 @@ body {
     padding: 10px 20px;
     font-size: 16px;
     margin: 5px;
+    background-color: rgb(103, 138, 245);
+    border: none;
+    border-radius: 15px;
+    transition: 150ms;
+}
+button:hover{
+  background-color: rgb(63, 92, 179);
+}
+button:active{
+  transform: scale(0.9);
 }
 .stopDisplay{
     display: flex;
     font-size: 24px;
     margin-bottom: 10px;
     justify-content: center;
+    margin-top: 50px;
 }
 
