@@ -52,4 +52,17 @@ button:active{
     justify-content: center;
     margin-top: 50px;
 }
-
+.d-flex{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  align-items: center;
+  font-size: 30px;
+}
+.split{
+  margin-top: 35%;
+}
+#split-record{
+  font-size: larger;
+}

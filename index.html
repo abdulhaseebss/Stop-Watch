@@ -1,22 +1,44 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
     <div id="stopwatch">
-      <div class="stopDisplay">
-        <div id="display3">00:</div>
-        <div id="display2">00:</div>
-        <div id="display1">00</div>
+
+
+        <div class="d-flex justify-centre text-centre pd  gap-2">
+
+            <p id="hours" title="Hours">00</p><span id="dots">:</span>
+            <p id="minutes" title="Minutes">00</p><span id="dots">:</span>
+            <p id="seconds" title="Seconds">00</p><span id="dots">:</span>
+            <p id="milli-sec" title="Milli Seconds">00</p>
+
+        </div>
+
+
+        <div class="d-flex  justify-centre  mt-5  gap-2">
+            <button id="play" title="Play">Play</i></button>
+            <button id="pause" title="Pause">Pause</i></button>
+            <button id="split" title="Split">Split</i></button>
+            <button id="reset" title="Reset">Reset</i></button>
+        </div>
+
+
       </div>
-      <div id="controls">
-        <button id="start">Start</button>
-        <button id="stop">Stop</button>
-        <button id="reset">Reset</button>
+      <div class="mt-5 split">
+        <h1>Split Record</h1>
+          <p id="split-record"> </p>
       </div>
-    </div>
+
 
     <script src="app.js"></script>
-  </body>
+</body>
+
 </html>
